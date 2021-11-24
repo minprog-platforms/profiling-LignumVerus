@@ -2,7 +2,7 @@
 - sudoku.py
 - Finn Peranovic
 
-- Creates a Sudoku class that is used to solve a sudoku in solve.py.
+- Helper file that creates a Sudoku class and load function that is used to solve a sudoku using solve.py.
 """
 from __future__ import annotations
 from typing import Iterable
@@ -112,7 +112,6 @@ class Sudoku:
         only the numbers 1 through 9. False otherwise.
         """
         values = {1, 2, 3, 4, 5, 6, 7, 8, 9}
-
         result = True
 
         for i in range(9):
